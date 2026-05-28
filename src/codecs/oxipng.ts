@@ -5,7 +5,8 @@ let module: any = null
 
 async function init(): Promise<any> {
   if (!module) {
-    const mod = await import('/codecs/oxipng/squoosh_oxipng.js' as any)
+    const path = '/codecs/oxipng/squoosh_oxipng.js'
+    const mod = await import(/* @vite-ignore */ path)
     await mod.default()
     module = mod
   }

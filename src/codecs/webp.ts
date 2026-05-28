@@ -5,7 +5,8 @@ let module: any = null
 
 async function init(): Promise<any> {
   if (!module) {
-    const mod = await import('/codecs/webp/webp_enc.js' as any)
+    const path = '/codecs/webp/webp_enc.js'
+    const mod = await import(/* @vite-ignore */ path)
     module = await mod.default()
   }
   return module

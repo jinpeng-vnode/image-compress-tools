@@ -1,30 +1,23 @@
 // src/composables/useCompress.ts — 压缩逻辑 composable
 import { ref } from 'vue'
-import type { EncodeOptions } from '@/codecs/types'
+import type { EncodeOptions, CompressResponse } from '@/codecs/types'
 
-interface CompressResult {
-  data: Uint8Array
+export interface CompressResult {
+  blob: Blob
   width: number
   height: number
   originalSize: number
   compressedSize: number
-}
-
-interface CompressResponse {
-  id: string
-  success: boolean
-  result?: CompressResult
-  error?: string
+  ratio: number
 }
 
 let worker: Worker | null = null
 let requestId = 0
-// 用 Map 按 id 分发响应，解决并发覆盖问题
 const pending = new Map<string, { resolve: (v: CompressResponse) => void; reject: (e: any) => void; timer: ReturnType<typeof setTimeout> }>()
 
 function getWorker(): Worker {
   if (!worker) {
-    worker = new Worker('/workers/compress.worker.js', { type: 'module' })
+    worker = new Worker(new URL('../workers/compress.worker.ts', import.meta.url), { type: 'module' })
     worker.onmessage = (e: MessageEvent<CompressResponse>) => {
       const entry = pending.get(e.data.id)
       if (entry) {
@@ -34,8 +27,7 @@ function getWorker(): Worker {
       }
     }
     worker.onerror = (e) => {
-      // 所有 pending 请求都标记失败
-      for (const [id, entry] of pending) {
+      for (const [, entry] of pending) {
         clearTimeout(entry.timer)
         entry.reject(e)
       }
@@ -47,20 +39,32 @@ function getWorker(): Worker {
 
 export function useCompress() {
   const compressing = ref(false)
+  const progress = ref(0)
   const result = ref<CompressResult | null>(null)
   const error = ref<string | null>(null)
 
   async function compress(file: File, encode: EncodeOptions): Promise<void> {
     compressing.value = true
+    progress.value = 0
     error.value = null
     result.value = null
 
     try {
+      // 检测浏览器兼容性
+      if (typeof WebAssembly === 'undefined') {
+        throw new Error('WASM_NOT_SUPPORTED')
+      }
+      if (typeof Worker === 'undefined') {
+        throw new Error('WORKER_NOT_SUPPORTED')
+      }
+
+      progress.value = 10
       const bitmap = await createImageBitmap(file)
       const canvas = new OffscreenCanvas(bitmap.width, bitmap.height)
       const ctx = canvas.getContext('2d')!
       ctx.drawImage(bitmap, 0, 0)
       const imageData = ctx.getImageData(0, 0, bitmap.width, bitmap.height)
+      progress.value = 30
 
       const id = String(++requestId)
       const w = getWorker()
@@ -68,7 +72,7 @@ export function useCompress() {
       const response = await new Promise<CompressResponse>((resolve, reject) => {
         const timer = setTimeout(() => {
           pending.delete(id)
-          reject(new Error('Compression timed out'))
+          reject(new Error('COMPRESS_TIMEOUT'))
         }, 60000)
         pending.set(id, { resolve, reject, timer })
         w.postMessage({
@@ -76,10 +80,12 @@ export function useCompress() {
           imageData: { data: imageData.data, width: imageData.width, height: imageData.height },
           encode
         })
+        progress.value = 50
       })
 
       if (response.success && response.result) {
         result.value = response.result
+        progress.value = 100
       } else {
         error.value = response.error || 'Unknown error'
       }
@@ -92,7 +98,7 @@ export function useCompress() {
 
   function downloadResult(filename: string, mimeType: string) {
     if (!result.value) return
-    const blob = new Blob([result.value.data], { type: mimeType })
+    const blob = new Blob([result.value.blob], { type: mimeType })
     const url = URL.createObjectURL(blob)
     const a = document.createElement('a')
     a.href = url
@@ -101,5 +107,5 @@ export function useCompress() {
     URL.revokeObjectURL(url)
   }
 
-  return { compressing, result, error, compress, downloadResult }
+  return { compressing, progress, result, error, compress, downloadResult }
 }

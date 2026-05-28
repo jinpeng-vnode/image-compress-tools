@@ -56,11 +56,12 @@ export interface CompressResponse {
   id: string
   success: boolean
   result?: {
-    data: Uint8Array
+    blob: Blob
     width: number
     height: number
     originalSize: number
     compressedSize: number
+    ratio: number
   }
   error?: string
 }

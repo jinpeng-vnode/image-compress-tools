@@ -13,7 +13,8 @@ export default defineConfig({
     Sitemap({
       hostname: 'https://imgcompress.tools',
       dynamicRoutes,
-      readable: true
+      readable: true,
+      generateRobotsTxt: false
     })
   ],
   resolve: {
