@@ -19,10 +19,28 @@ interface CompressResponse {
 
 let worker: Worker | null = null
 let requestId = 0
+// 用 Map 按 id 分发响应，解决并发覆盖问题
+const pending = new Map<string, { resolve: (v: CompressResponse) => void; reject: (e: any) => void; timer: ReturnType<typeof setTimeout> }>()
 
 function getWorker(): Worker {
   if (!worker) {
     worker = new Worker('/workers/compress.worker.js', { type: 'module' })
+    worker.onmessage = (e: MessageEvent<CompressResponse>) => {
+      const entry = pending.get(e.data.id)
+      if (entry) {
+        clearTimeout(entry.timer)
+        pending.delete(e.data.id)
+        entry.resolve(e.data)
+      }
+    }
+    worker.onerror = (e) => {
+      // 所有 pending 请求都标记失败
+      for (const [id, entry] of pending) {
+        clearTimeout(entry.timer)
+        entry.reject(e)
+      }
+      pending.clear()
+    }
   }
   return worker
 }
@@ -48,14 +66,11 @@ export function useCompress() {
       const w = getWorker()
 
       const response = await new Promise<CompressResponse>((resolve, reject) => {
-        const timeout = setTimeout(() => reject(new Error('Compression timed out')), 60000)
-        w.onmessage = (e: MessageEvent<CompressResponse>) => {
-          if (e.data.id === id) {
-            clearTimeout(timeout)
-            resolve(e.data)
-          }
-        }
-        w.onerror = (e) => { clearTimeout(timeout); reject(e) }
+        const timer = setTimeout(() => {
+          pending.delete(id)
+          reject(new Error('Compression timed out'))
+        }, 60000)
+        pending.set(id, { resolve, reject, timer })
         w.postMessage({
           id,
           imageData: { data: imageData.data, width: imageData.width, height: imageData.height },
