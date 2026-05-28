@@ -8,7 +8,7 @@
     @click="triggerInput"
   >
     <div v-if="!preview" class="space-y-2">
-      <div class="text-4xl">📁</div>
+      <UploadCloud class="w-10 h-10 mx-auto text-gray-400" />
       <p class="text-gray-600">{{ t('compress.upload') }}</p>
       <p class="text-xs text-gray-400">{{ t('compress.uploadHint') }}</p>
     </div>
@@ -24,6 +24,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { useI18n } from 'vue-i18n'
+import { UploadCloud } from 'lucide-vue-next'
 import { useFileUpload } from '@/composables/useFileUpload'
 
 const { t } = useI18n()

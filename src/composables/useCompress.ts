@@ -3,7 +3,7 @@ import { ref } from 'vue'
 import type { EncodeOptions, CompressResponse } from '@/codecs/types'
 
 export interface CompressResult {
-  blob: Blob
+  data: Uint8Array
   width: number
   height: number
   originalSize: number
@@ -78,8 +78,8 @@ export function useCompress() {
         w.postMessage({
           id,
           imageData: { data: imageData.data, width: imageData.width, height: imageData.height },
-          encode
-        })
+          encode: JSON.parse(JSON.stringify(encode))
+        }, [imageData.data.buffer])
         progress.value = 50
       })
 
@@ -98,7 +98,7 @@ export function useCompress() {
 
   function downloadResult(filename: string, mimeType: string) {
     if (!result.value) return
-    const blob = new Blob([result.value.blob], { type: mimeType })
+    const blob = new Blob([result.value.data], { type: mimeType })
     const url = URL.createObjectURL(blob)
     const a = document.createElement('a')
     a.href = url

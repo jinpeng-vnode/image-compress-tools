@@ -11,7 +11,7 @@ self.onmessage = async (e: MessageEvent<CompressRequest>) => {
   const { id, imageData, encode } = e.data
   try {
     const { data, width, height } = imageData
-    const input = new Uint8ClampedArray(data)
+    const input = data instanceof Uint8ClampedArray ? data : new Uint8ClampedArray(data.buffer || data)
     let encoded: Uint8Array
 
     switch (encode.codec) {
@@ -36,13 +36,12 @@ self.onmessage = async (e: MessageEvent<CompressRequest>) => {
 
     const originalSize = data.byteLength
     const compressedSize = encoded.byteLength
-    const blob = new Blob([encoded])
 
     const response: CompressResponse = {
       id,
       success: true,
       result: {
-        blob,
+        data: encoded,
         width,
         height,
         originalSize,
@@ -50,7 +49,7 @@ self.onmessage = async (e: MessageEvent<CompressRequest>) => {
         ratio: compressedSize / originalSize
       }
     }
-    self.postMessage(response)
+    self.postMessage(response, [encoded.buffer])
   } catch (error) {
     const response: CompressResponse = {
       id,

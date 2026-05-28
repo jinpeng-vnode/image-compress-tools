@@ -56,7 +56,7 @@ export interface CompressResponse {
   id: string
   success: boolean
   result?: {
-    blob: Blob
+    data: Uint8Array
     width: number
     height: number
     originalSize: number
