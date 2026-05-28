@@ -5,7 +5,9 @@ let module: any = null
 
 async function init(): Promise<any> {
   if (!module) {
-    const mod = await import('/codecs/mozjpeg/mozjpeg_enc.js' as any)
+    // 使用变量避免 Vite/Rollup 静态分析 resolve
+    const path = '/codecs/mozjpeg/mozjpeg_enc.js'
+    const mod = await import(/* @vite-ignore */ path)
     module = await mod.default()
   }
   return module

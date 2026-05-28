@@ -5,7 +5,8 @@ let module: any = null
 
 async function init(): Promise<any> {
   if (!module) {
-    const mod = await import('/codecs/avif/avif_enc.js' as any)
+    const path = '/codecs/avif/avif_enc.js'
+    const mod = await import(/* @vite-ignore */ path)
     module = await mod.default()
   }
   return module
