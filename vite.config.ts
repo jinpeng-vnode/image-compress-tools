@@ -21,9 +21,18 @@ const landingSlugs = [
   'png-to-jpg-converter', 'compress-image-to-2mb'
 ]
 
+// 博客页面 slugs
+const blogSlugs = [
+  'blog/how-to-compress-png', 'blog/reduce-image-size-online', 'blog/convert-webp-to-jpg',
+  'blog/compress-jpeg-without-quality-loss', 'blog/best-image-optimization',
+  'blog/reduce-photo-file-size', 'blog/compress-images-for-web', 'blog/png-vs-jpg-comparison',
+  'blog/image-compression-guide', 'blog/batch-image-resize'
+]
+
 const dynamicRoutes = locales.flatMap(l => [
   ...pages.map(p => `/${l}/${p}`.replace(/\/$/, '') || `/${l}`),
-  ...landingSlugs.map(s => `/${l}/${s}`)
+  ...landingSlugs.map(s => `/${l}/${s}`),
+  ...blogSlugs.map(s => `/${l}/${s}`)
 ])
 
 export default defineConfig({
