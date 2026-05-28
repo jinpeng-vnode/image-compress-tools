@@ -14,7 +14,7 @@
       >
         <component :is="tool.icon" class="w-8 h-8 mb-2 text-primary" />
         <h3 class="font-semibold">{{ t(tool.nameKey) }}</h3>
-        <p class="text-sm text-gray-500 mt-1">{{ tool.desc }}</p>
+        <p class="text-sm text-gray-500 mt-1">{{ t(tool.descKey) }}</p>
       </router-link>
     </div>
   </div>
@@ -35,10 +35,10 @@ useSeo({
 })
 
 const tools = [
-  { path: 'jpeg-compress', icon: Camera, nameKey: 'nav.jpeg', desc: 'MozJPEG encoder' },
-  { path: 'png-compress', icon: Image, nameKey: 'nav.png', desc: 'OxiPNG optimizer' },
-  { path: 'webp-convert', icon: Globe, nameKey: 'nav.webp', desc: 'WebP converter' },
-  { path: 'avif-convert', icon: Sparkles, nameKey: 'nav.avif', desc: 'AVIF converter' },
-  { path: 'image-resize', icon: Maximize, nameKey: 'nav.resize', desc: 'Image resizer' }
+  { path: 'jpeg-compress', icon: Camera, nameKey: 'nav.jpeg', descKey: 'home.jpegDesc' },
+  { path: 'png-compress', icon: Image, nameKey: 'nav.png', descKey: 'home.pngDesc' },
+  { path: 'webp-convert', icon: Globe, nameKey: 'nav.webp', descKey: 'home.webpDesc' },
+  { path: 'avif-convert', icon: Sparkles, nameKey: 'nav.avif', descKey: 'home.avifDesc' },
+  { path: 'image-resize', icon: Maximize, nameKey: 'nav.resize', descKey: 'home.resizeDesc' }
 ]
 </script>

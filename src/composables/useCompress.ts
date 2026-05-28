@@ -77,6 +77,7 @@ export function useCompress() {
         pending.set(id, { resolve, reject, timer })
         w.postMessage({
           id,
+          fileSize: file.size,
           imageData: { data: imageData.data, width: imageData.width, height: imageData.height },
           encode: JSON.parse(JSON.stringify(encode))
         }, [imageData.data.buffer])

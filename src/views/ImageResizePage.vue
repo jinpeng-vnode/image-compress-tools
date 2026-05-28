@@ -2,7 +2,7 @@
   <div class="space-y-6">
     <h1 class="text-2xl font-bold">{{ t('nav.resize') }}</h1>
     <FileDropZone ref="dropZone" />
-    <CompressOptions :disabled="!dropZone?.file" :compressing="compressing" @compress="handleCompress">
+    <CompressOptions :disabled="!dropZone?.file" :compressing="compressing" button-key="compress.resize" @compress="handleCompress">
       <div class="space-y-3">
         <div class="grid grid-cols-2 gap-3">
           <label class="space-y-1">
@@ -43,7 +43,7 @@ const { t } = useI18n()
 useSeo({ titleKey: 'nav.resize', descriptionKey: 'site.description', keywords: ['resize image online', 'image resizer', 'change image size'], path: '/image-resize' })
 
 const dropZone = ref<InstanceType<typeof FileDropZone>>()
-const options = reactive({ ...DEFAULT_RESIZE, width: 800, height: 600 })
+const options = reactive({ ...DEFAULT_RESIZE, width: 0, height: 0 })
 const { compressing, result, error, compress, downloadResult } = useCompress()
 const outputName = computed(() => (dropZone.value?.file?.name?.replace(/\.\w+$/, '') || 'image') + '_resized.png')
 

@@ -8,7 +8,7 @@ detectFeatures().then(f => {
 })
 
 self.onmessage = async (e: MessageEvent<CompressRequest>) => {
-  const { id, imageData, encode } = e.data
+  const { id, fileSize, imageData, encode } = e.data
   try {
     const { data, width, height } = imageData
     const input = data instanceof Uint8ClampedArray ? data : new Uint8ClampedArray(data.buffer || data)
@@ -34,7 +34,7 @@ self.onmessage = async (e: MessageEvent<CompressRequest>) => {
         throw new Error(`Unknown codec: ${(encode as any).codec}`)
     }
 
-    const originalSize = data.byteLength
+    const originalSize = fileSize
     const compressedSize = encoded.byteLength
 
     const response: CompressResponse = {

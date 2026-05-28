@@ -83,8 +83,8 @@ const page = computed(() => landingPages.find(p => p.slug === slug.value))
 // 为每个 codec 准备选项
 const jpegOpts = reactive({ ...DEFAULT_MOZJPEG })
 const pngOpts = reactive({ ...DEFAULT_OXIPNG })
-const webpOpts = reactive({ quality: 75 })
-const avifOpts = reactive({ quality: 50 })
+const webpOpts = reactive({ ...DEFAULT_WEBP })
+const avifOpts = reactive({ ...DEFAULT_AVIF })
 const resizeOpts = reactive({ ...DEFAULT_RESIZE, width: 1024, height: 768 })
 
 const dropZone = ref<InstanceType<typeof FileDropZone>>()

@@ -14,7 +14,12 @@
   "home": {
     "title": "Free Online Image Compression",
     "subtitle": "Compress images directly in your browser. No upload needed, 100% private.",
-    "features": "Choose a tool to get started"
+    "features": "Choose a tool to get started",
+    "jpegDesc": "MozJPEG encoder for optimal JPEG compression",
+    "pngDesc": "OxiPNG lossless PNG optimizer",
+    "webpDesc": "Convert images to WebP format",
+    "avifDesc": "Convert images to next-gen AVIF format",
+    "resizeDesc": "Resize images to custom dimensions"
   },
   "compress": {
     "upload": "Drop image here or click to upload",
@@ -29,6 +34,7 @@
     "method": "Resize Method",
     "keepAspect": "Keep Aspect Ratio",
     "compress": "Compress",
+    "resize": "Resize",
     "download": "Download",
     "original": "Original",
     "compressed": "Compressed",

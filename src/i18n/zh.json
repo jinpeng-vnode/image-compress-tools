@@ -14,7 +14,12 @@
   "home": {
     "title": "免费在线图片压缩",
     "subtitle": "直接在浏览器中压缩图片，无需上传，100% 隐私安全。",
-    "features": "选择一个工具开始"
+    "features": "选择一个工具开始",
+    "jpegDesc": "MozJPEG 编码器，最优 JPEG 压缩",
+    "pngDesc": "OxiPNG 无损 PNG 优化",
+    "webpDesc": "将图片转换为 WebP 格式",
+    "avifDesc": "将图片转换为新一代 AVIF 格式",
+    "resizeDesc": "调整图片到自定义尺寸"
   },
   "compress": {
     "upload": "拖拽图片到此处或点击上传",
@@ -29,6 +34,7 @@
     "method": "缩放方式",
     "keepAspect": "保持比例",
     "compress": "压缩",
+    "resize": "调整尺寸",
     "download": "下载",
     "original": "原图",
     "compressed": "压缩后",
