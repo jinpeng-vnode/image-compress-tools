@@ -1,0 +1,49 @@
+{
+  "site": {
+    "name": "图片压缩工具",
+    "description": "基于 WebAssembly 的免费在线图片压缩工具"
+  },
+  "nav": {
+    "home": "首页",
+    "jpeg": "JPEG 压缩",
+    "png": "PNG 压缩",
+    "webp": "WebP 转换",
+    "avif": "AVIF 转换",
+    "resize": "图片缩放"
+  },
+  "home": {
+    "title": "免费在线图片压缩",
+    "subtitle": "直接在浏览器中压缩图片，无需上传，100% 隐私安全。",
+    "features": "选择一个工具开始"
+  },
+  "compress": {
+    "upload": "拖拽图片到此处或点击上传",
+    "uploadHint": "支持 JPG、PNG、WebP、AVIF（最大 50MB）",
+    "quality": "质量",
+    "progressive": "渐进式",
+    "lossless": "无损",
+    "speed": "速度",
+    "level": "压缩等级",
+    "width": "宽度",
+    "height": "高度",
+    "method": "缩放方式",
+    "keepAspect": "保持比例",
+    "compress": "压缩",
+    "download": "下载",
+    "original": "原图",
+    "compressed": "压缩后",
+    "savings": "节省 {percent}%",
+    "processing": "处理中...",
+    "error": {
+      "loadFailed": "压缩引擎加载失败，请刷新页面重试。",
+      "invalidType": "不支持的文件格式，请上传 JPG/PNG/WebP/AVIF 图片。",
+      "tooLarge": "文件过大，请上传 50MB 以内的图片。",
+      "timeout": "压缩超时，请尝试降低质量或缩小图片尺寸。",
+      "generic": "压缩失败：{message}"
+    }
+  },
+  "footer": {
+    "powered": "基于 WebAssembly 和 Squoosh 编解码器",
+    "privacy": "所有处理均在浏览器中完成，不会上传任何数据。"
+  }
+}

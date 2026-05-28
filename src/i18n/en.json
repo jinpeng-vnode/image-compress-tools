@@ -1,0 +1,49 @@
+{
+  "site": {
+    "name": "Image Compress Tools",
+    "description": "Free online image compression tool powered by WebAssembly"
+  },
+  "nav": {
+    "home": "Home",
+    "jpeg": "JPEG Compress",
+    "png": "PNG Compress",
+    "webp": "WebP Convert",
+    "avif": "AVIF Convert",
+    "resize": "Image Resize"
+  },
+  "home": {
+    "title": "Free Online Image Compression",
+    "subtitle": "Compress images directly in your browser. No upload needed, 100% private.",
+    "features": "Choose a tool to get started"
+  },
+  "compress": {
+    "upload": "Drop image here or click to upload",
+    "uploadHint": "Supports JPG, PNG, WebP, AVIF (max 50MB)",
+    "quality": "Quality",
+    "progressive": "Progressive",
+    "lossless": "Lossless",
+    "speed": "Speed",
+    "level": "Compression Level",
+    "width": "Width",
+    "height": "Height",
+    "method": "Resize Method",
+    "keepAspect": "Keep Aspect Ratio",
+    "compress": "Compress",
+    "download": "Download",
+    "original": "Original",
+    "compressed": "Compressed",
+    "savings": "Saved {percent}%",
+    "processing": "Processing...",
+    "error": {
+      "loadFailed": "Compression engine failed to load. Please refresh.",
+      "invalidType": "Unsupported file format. Please upload JPG/PNG/WebP/AVIF.",
+      "tooLarge": "File too large. Please upload images under 50MB.",
+      "timeout": "Compression timed out. Try lower quality or smaller image.",
+      "generic": "Compression failed: {message}"
+    }
+  },
+  "footer": {
+    "powered": "Powered by WebAssembly & Squoosh codecs",
+    "privacy": "All processing happens in your browser. No data is uploaded."
+  }
+}

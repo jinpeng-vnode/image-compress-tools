@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://imagecompresstools.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/"/>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/jpeg-compress</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/jpeg-compress"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/jpeg-compress"/>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/png-compress</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/png-compress"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/png-compress"/>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/webp-convert</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/webp-convert"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/webp-convert"/>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/avif-convert</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/avif-convert"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/avif-convert"/>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/image-resize</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/image-resize"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/image-resize"/>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/"/>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/jpeg-compress</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/jpeg-compress"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/jpeg-compress"/>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/png-compress</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/png-compress"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/png-compress"/>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/webp-convert</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/webp-convert"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/webp-convert"/>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/avif-convert</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/avif-convert"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/avif-convert"/>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/image-resize</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/image-resize"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/image-resize"/>
+  </url>
+</urlset>
