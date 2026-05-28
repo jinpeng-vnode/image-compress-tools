@@ -5,60 +5,574 @@
     <loc>https://imagecompresstools.com/en/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/"/>
-  </url>
-  <url>
-    <loc>https://imagecompresstools.com/en/jpeg-compress</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/jpeg-compress"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/jpeg-compress"/>
-  </url>
-  <url>
-    <loc>https://imagecompresstools.com/en/png-compress</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/png-compress"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/png-compress"/>
-  </url>
-  <url>
-    <loc>https://imagecompresstools.com/en/webp-convert</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/webp-convert"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/webp-convert"/>
-  </url>
-  <url>
-    <loc>https://imagecompresstools.com/en/avif-convert</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/avif-convert"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/avif-convert"/>
-  </url>
-  <url>
-    <loc>https://imagecompresstools.com/en/image-resize</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/image-resize"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/image-resize"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://imagecompresstools.com/zh/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/jpeg-compress</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/jpeg-compress"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/jpeg-compress"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://imagecompresstools.com/zh/jpeg-compress</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/jpeg-compress"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/jpeg-compress"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/png-compress</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/png-compress"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/png-compress"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://imagecompresstools.com/zh/png-compress</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/png-compress"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/png-compress"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/webp-convert</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/webp-convert"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/webp-convert"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://imagecompresstools.com/zh/webp-convert</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/webp-convert"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/webp-convert"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/avif-convert</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/avif-convert"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/avif-convert"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://imagecompresstools.com/zh/avif-convert</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/avif-convert"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/avif-convert"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/image-resize</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/image-resize"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/image-resize"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://imagecompresstools.com/zh/image-resize</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/image-resize"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/image-resize"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/compress-png-to-100kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-png-to-100kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-png-to-100kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/compress-png-to-100kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-png-to-100kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-png-to-100kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/compress-png-to-200kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-png-to-200kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-png-to-200kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/compress-png-to-200kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-png-to-200kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-png-to-200kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/compress-png-to-50kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-png-to-50kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-png-to-50kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/compress-png-to-50kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-png-to-50kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-png-to-50kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/compress-png-to-20kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-png-to-20kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-png-to-20kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/compress-png-to-20kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-png-to-20kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-png-to-20kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/compress-jpeg-to-100kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-jpeg-to-100kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-jpeg-to-100kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/compress-jpeg-to-100kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-jpeg-to-100kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-jpeg-to-100kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/compress-jpeg-to-200kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-jpeg-to-200kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-jpeg-to-200kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/compress-jpeg-to-200kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-jpeg-to-200kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-jpeg-to-200kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/compress-jpeg-to-50kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-jpeg-to-50kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-jpeg-to-50kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/compress-jpeg-to-50kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-jpeg-to-50kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-jpeg-to-50kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/compress-jpeg-to-20kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-jpeg-to-20kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-jpeg-to-20kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/compress-jpeg-to-20kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-jpeg-to-20kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-jpeg-to-20kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/compress-image-to-100kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-image-to-100kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-image-to-100kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/compress-image-to-100kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-image-to-100kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-image-to-100kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/compress-image-to-200kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-image-to-200kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-image-to-200kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/compress-image-to-200kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-image-to-200kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-image-to-200kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/compress-image-to-1mb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-image-to-1mb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-image-to-1mb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/compress-image-to-1mb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-image-to-1mb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-image-to-1mb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/compress-image-to-500kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-image-to-500kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-image-to-500kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/compress-image-to-500kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-image-to-500kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-image-to-500kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/compress-jpeg-without-losing-quality</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-jpeg-without-losing-quality"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-jpeg-without-losing-quality"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/compress-jpeg-without-losing-quality</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-jpeg-without-losing-quality"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-jpeg-without-losing-quality"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/compress-png-without-losing-quality</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-png-without-losing-quality"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-png-without-losing-quality"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/compress-png-without-losing-quality</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-png-without-losing-quality"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-png-without-losing-quality"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/reduce-image-size-online-free</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/reduce-image-size-online-free"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/reduce-image-size-online-free"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/reduce-image-size-online-free</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/reduce-image-size-online-free"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/reduce-image-size-online-free"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/bulk-image-compressor</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/bulk-image-compressor"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/bulk-image-compressor"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/bulk-image-compressor</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/bulk-image-compressor"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/bulk-image-compressor"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/convert-png-to-webp</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/convert-png-to-webp"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/convert-png-to-webp</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/convert-png-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/convert-png-to-webp"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/convert-jpg-to-webp</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/convert-jpg-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/convert-jpg-to-webp"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/convert-jpg-to-webp</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/convert-jpg-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/convert-jpg-to-webp"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/convert-png-to-avif</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/convert-png-to-avif"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/convert-png-to-avif"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/convert-png-to-avif</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/convert-png-to-avif"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/convert-png-to-avif"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/convert-jpg-to-avif</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/convert-jpg-to-avif"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/convert-jpg-to-avif"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/convert-jpg-to-avif</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/convert-jpg-to-avif"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/convert-jpg-to-avif"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/compress-image-for-email</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-image-for-email"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-image-for-email"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/compress-image-for-email</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-image-for-email"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-image-for-email"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/compress-image-for-website</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-image-for-website"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-image-for-website"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/compress-image-for-website</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-image-for-website"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-image-for-website"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/compress-photo-for-passport</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-photo-for-passport"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-photo-for-passport"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/compress-photo-for-passport</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-photo-for-passport"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-photo-for-passport"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/compress-image-for-social-media</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-image-for-social-media"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-image-for-social-media"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/compress-image-for-social-media</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-image-for-social-media"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-image-for-social-media"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/resize-image-to-1024x768</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/resize-image-to-1024x768"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/resize-image-to-1024x768"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/resize-image-to-1024x768</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/resize-image-to-1024x768"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/resize-image-to-1024x768"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/resize-image-to-800x600</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/resize-image-to-800x600"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/resize-image-to-800x600"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/resize-image-to-800x600</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/resize-image-to-800x600"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/resize-image-to-800x600"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/resize-image-for-instagram</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/resize-image-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/resize-image-for-instagram"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/resize-image-for-instagram</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/resize-image-for-instagram"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/resize-image-for-instagram"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/compress-jpg-to-100kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-jpg-to-100kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-jpg-to-100kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/compress-jpg-to-100kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-jpg-to-100kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-jpg-to-100kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/compress-jpg-to-50kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-jpg-to-50kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-jpg-to-50kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/compress-jpg-to-50kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-jpg-to-50kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-jpg-to-50kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/compress-jpg-to-200kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-jpg-to-200kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-jpg-to-200kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/compress-jpg-to-200kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-jpg-to-200kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-jpg-to-200kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/image-compressor-online-free</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/image-compressor-online-free"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/image-compressor-online-free"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/image-compressor-online-free</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/image-compressor-online-free"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/image-compressor-online-free"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/reduce-photo-size-kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/reduce-photo-size-kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/reduce-photo-size-kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/reduce-photo-size-kb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/reduce-photo-size-kb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/reduce-photo-size-kb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/compress-webp-image</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-webp-image"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-webp-image"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/compress-webp-image</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-webp-image"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-webp-image"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/png-to-jpg-converter</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/png-to-jpg-converter"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/png-to-jpg-converter"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/png-to-jpg-converter</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/png-to-jpg-converter"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/png-to-jpg-converter"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/en/compress-image-to-2mb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-image-to-2mb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-image-to-2mb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://imagecompresstools.com/zh/compress-image-to-2mb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://imagecompresstools.com/en/compress-image-to-2mb"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://imagecompresstools.com/zh/compress-image-to-2mb"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>

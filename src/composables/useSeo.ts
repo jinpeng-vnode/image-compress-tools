@@ -11,6 +11,8 @@ interface SeoConfig {
   descriptionKey: string
   keywords: string[]
   path: string
+  dynamicTitle?: string
+  dynamicDesc?: string
 }
 
 export function useSeo(config: SeoConfig) {
@@ -21,14 +23,19 @@ export function useSeo(config: SeoConfig) {
   const alternateEn = computed(() => `${SITE_URL}/en${config.path}`)
   const alternateZh = computed(() => `${SITE_URL}/zh${config.path}`)
 
+  const title = computed(() => {
+    const base = config.dynamicTitle || t(config.titleKey)
+    return `${base} - Image Compress Tools`
+  })
+  const description = computed(() => config.dynamicDesc || t(config.descriptionKey))
+
   useHead({
-    title: computed(() => `${t(config.titleKey)} - Image Compress Tools`),
+    title,
     meta: [
-      { name: 'description', content: computed(() => t(config.descriptionKey)) },
+      { name: 'description', content: description },
       { name: 'keywords', content: config.keywords.join(', ') },
-      // Open Graph
-      { property: 'og:title', content: computed(() => t(config.titleKey)) },
-      { property: 'og:description', content: computed(() => t(config.descriptionKey)) },
+      { property: 'og:title', content: title },
+      { property: 'og:description', content: description },
       { property: 'og:type', content: 'website' },
       { property: 'og:url', content: canonicalUrl },
       { property: 'og:site_name', content: 'Image Compress Tools' }
@@ -45,8 +52,8 @@ export function useSeo(config: SeoConfig) {
         innerHTML: computed(() => JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'WebApplication',
-          name: t(config.titleKey),
-          description: t(config.descriptionKey),
+          name: title.value,
+          description: description.value,
           applicationCategory: 'MultimediaApplication',
           operatingSystem: 'Any',
           offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }
