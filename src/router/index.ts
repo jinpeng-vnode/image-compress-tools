@@ -1,4 +1,5 @@
-import { createRouter, createWebHistory, type RouteRecordRaw } from 'vue-router'
+// src/router/index.ts — 路由定义
+import type { RouteRecordRaw } from 'vue-router'
 import { SUPPORTED_LOCALES } from '@/i18n'
 
 // 页面路由定义
@@ -12,10 +13,8 @@ const pages: RouteRecordRaw[] = [
 ]
 
 // 为每种语言生成带前缀的路由
-const routes: RouteRecordRaw[] = [
-  // 根路径重定向到 /en/
+export const routes: RouteRecordRaw[] = [
   { path: '/', redirect: '/en/' },
-  // 多语言路由
   ...SUPPORTED_LOCALES.map(locale => ({
     path: `/${locale}`,
     children: pages.map(p => ({
@@ -25,11 +24,6 @@ const routes: RouteRecordRaw[] = [
     }))
   }))
 ]
-
-export const router = createRouter({
-  history: createWebHistory(),
-  routes
-})
 
 // SSG 预渲染路由列表
 export const routePaths = SUPPORTED_LOCALES.flatMap(locale =>

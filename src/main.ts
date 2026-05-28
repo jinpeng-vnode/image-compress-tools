@@ -1,22 +1,25 @@
-// src/main.ts — 应用入口
-import { createApp } from 'vue'
-import { createHead } from '@unhead/vue'
+// src/main.ts — 应用入口（vite-ssg）
+import { ViteSSG } from 'vite-ssg'
 import App from './App.vue'
-import { router } from './router'
+import { routes, routePaths } from './router'
 import { i18n } from './i18n'
 import './styles/main.css'
 
-const app = createApp(App)
-app.use(router)
-app.use(i18n)
-app.use(createHead())
+export const createApp = ViteSSG(
+  App,
+  {
+    routes,
+    base: '/'
+  },
+  ({ app, router }) => {
+    app.use(i18n)
 
-// 路由守卫：根据路径设置语言
-router.beforeEach((to) => {
-  const locale = to.path.split('/')[1]
-  if (locale === 'en' || locale === 'zh') {
-    i18n.global.locale.value = locale
+    // 路由守卫：根据路径设置语言
+    router.beforeEach((to) => {
+      const locale = to.path.split('/')[1]
+      if (locale === 'en' || locale === 'zh') {
+        i18n.global.locale.value = locale
+      }
+    })
   }
-})
-
-app.mount('#app')
+)
