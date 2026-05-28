@@ -2,13 +2,13 @@
 
 基于 Google Squoosh 开源项目的图片压缩工具站。
 
-## 功能全景图 — 完成度: 80%
+## 功能全景图 — 完成度: 90%
 
 > 项目定义：基于 Google Squoosh（MIT协议）的图片压缩工具站，纯前端 WebAssembly 方案，SEO 驱动流量
-> 当前阶段：开发中（待测试/部署）
+> 当前阶段：已上线（http://192.168.3.9:8088/）
 > 下一步优先级：
-> 1. Docker 容器化部署到 Mac Mini
-> 2. Cloudflare 域名绑定
+> 1. Cloudflare 域名绑定
+> 2. 广告接入
 > 禁止：修改 Mac Mini 宿主机配置；引入后端服务（纯前端方案）
 
 image-compress-tools
@@ -31,6 +31,6 @@ image-compress-tools
 │   ├── 中英文双语支持 — ✅
 │   └── 响应式布局 — ✅
 └── 部署
-    ├── Docker 容器化 — ❌(#1 待测试)
-    ├── Nginx 静态托管 — ❌(#1 待测试)
+    ├── Docker 容器化 — ✅
+    ├── Nginx 静态托管 — ✅
     └── Cloudflare 域名绑定 — ❌
