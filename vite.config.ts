@@ -25,7 +25,16 @@ const landingSlugs = [
   'compress-image-without-losing-quality', 'convert-heic-to-jpg', 'optimize-images-for-website',
   'compress-screenshot', 'reduce-image-resolution-online', 'compress-image-for-instagram',
   'image-size-reducer-in-kb', 'compress-multiple-images-at-once', 'photo-compressor-for-id-card',
-  'compress-image-to-20kb'
+  'compress-image-to-20kb',
+  // 第三批：社交媒体平台 + 用途场景 + 文件格式
+  'compress-image-for-linkedin', 'compress-image-for-twitter', 'compress-image-for-facebook',
+  'compress-image-for-tiktok', 'compress-image-for-youtube-thumbnail',
+  'compress-image-for-discord', 'compress-image-for-slack', 'compress-image-for-resume',
+  'compress-image-for-passport-photo', 'compress-image-for-visa-application',
+  'compress-pdf-images', 'compress-svg-file', 'compress-tiff-to-jpg',
+  'compress-raw-photo', 'compress-4k-image',
+  'compress-panorama-photo', 'compress-product-photo', 'compress-food-photo',
+  'compress-real-estate-photo', 'compress-medical-image'
 ]
 
 // 博客页面 slugs
