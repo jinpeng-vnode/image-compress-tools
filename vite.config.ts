@@ -18,7 +18,14 @@ const landingSlugs = [
   'resize-image-to-1024x768', 'resize-image-to-800x600', 'resize-image-for-instagram',
   'compress-jpg-to-100kb', 'compress-jpg-to-50kb', 'compress-jpg-to-200kb',
   'image-compressor-online-free', 'reduce-photo-size-kb', 'compress-webp-image',
-  'png-to-jpg-converter', 'compress-image-to-2mb'
+  'png-to-jpg-converter', 'compress-image-to-2mb',
+  // 第二批长尾关键词
+  'reduce-image-size-to-50kb', 'compress-photo-for-email', 'resize-image-to-passport-size',
+  'compress-image-for-whatsapp', 'reduce-pdf-image-size', 'compress-gif-online',
+  'compress-image-without-losing-quality', 'convert-heic-to-jpg', 'optimize-images-for-website',
+  'compress-screenshot', 'reduce-image-resolution-online', 'compress-image-for-instagram',
+  'image-size-reducer-in-kb', 'compress-multiple-images-at-once', 'photo-compressor-for-id-card',
+  'compress-image-to-20kb'
 ]
 
 // 博客页面 slugs
