@@ -34,7 +34,16 @@ const landingSlugs = [
   'compress-pdf-images', 'compress-svg-file', 'compress-tiff-to-jpg',
   'compress-raw-photo', 'compress-4k-image',
   'compress-panorama-photo', 'compress-product-photo', 'compress-food-photo',
-  'compress-real-estate-photo', 'compress-medical-image'
+  'compress-real-estate-photo', 'compress-medical-image',
+  // 第四批：使用场景
+  'compress-image-for-ebay', 'compress-image-for-etsy', 'compress-image-for-amazon',
+  'compress-image-for-shopify', 'compress-image-for-wordpress',
+  'compress-image-for-wix', 'compress-image-for-squarespace', 'compress-image-for-google-ads',
+  'compress-image-for-facebook-ads', 'compress-image-for-pinterest',
+  'compress-image-for-print', 'compress-image-for-powerpoint', 'compress-image-for-google-docs',
+  'compress-image-for-notion', 'compress-image-for-github-readme',
+  'compress-image-for-app-store', 'compress-image-for-play-store', 'compress-image-for-steam',
+  'compress-image-for-twitch', 'compress-image-for-zoom-background'
 ]
 
 // 博客页面 slugs
