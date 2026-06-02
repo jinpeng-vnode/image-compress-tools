@@ -43,7 +43,7 @@ const { t } = useI18n()
 useSeo({ titleKey: 'nav.resize', descriptionKey: 'site.description', keywords: ['resize image online', 'image resizer', 'change image size'], path: '/image-resize' })
 
 const dropZone = ref<InstanceType<typeof FileDropZone>>()
-const options = reactive({ ...DEFAULT_RESIZE, width: 0, height: 0 })
+const options = reactive({ ...DEFAULT_RESIZE, width: 1024, height: 768 })
 const { compressing, result, error, compress, downloadResult } = useCompress()
 const outputName = computed(() => (dropZone.value?.file?.name?.replace(/\.\w+$/, '') || 'image') + '_resized.png')
 

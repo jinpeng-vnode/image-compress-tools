@@ -37,13 +37,16 @@ self.onmessage = async (e: MessageEvent<CompressRequest>) => {
     const originalSize = fileSize
     const compressedSize = encoded.byteLength
 
+    const resultWidth = encode.codec === 'resize' ? (encode.options.width || width) : width
+    const resultHeight = encode.codec === 'resize' ? (encode.options.height || height) : height
+
     const response: CompressResponse = {
       id,
       success: true,
       result: {
         data: encoded,
-        width,
-        height,
+        width: resultWidth,
+        height: resultHeight,
         originalSize,
         compressedSize,
         ratio: compressedSize / originalSize
